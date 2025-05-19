@@ -1,0 +1,62 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Act like a strategic advisor. Help me evaluate 3 AI tools (Zapier, n8n, Make) using a decision matrix. The criteria are: ease of use, integration options, cost, and customization. Give your analysis in a structured table. Normalize all criteria to a score from 1–10, and explain your scoring in 1 sentence per cell. Use bold headings for each criterion. Ask any clarifying questions if needed, such as the weights for criteria."
+      },
+      {
+        "role": "assistant",
+        "content": "This analysis uses a decision matrix to score each tool against weighted criteria for a fair, structured comparison.\n\n{\n  \"Zapier\": { ... },\n  \"n8n\": { ... },\n  \"Make\": { ... }\n}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Act like a strategic advisor. I will describe a business and I want you to perform a SWOT analysis. Ask follow-up questions if needed. Present the results in a structured JSON format with four sections: Strengths, Weaknesses, Opportunities, and Threats. Each section should have 3–5 concise bullet points with clear language.\n\nBusiness: I run a small AI startup that helps non-technical solopreneurs automate tasks. We’ve gained some traction on TikTok, but client retention is low. Our onboarding is inconsistent, and our current tools are mostly no-code."
+      },
+      {
+        "role": "assistant",
+        "content": "This output applies a SWOT analysis to identify internal strengths and weaknesses, and external opportunities and threats.\n\n{\n  \"Strengths\": [ ... ],\n  \"Weaknesses\": [ ... ],\n  \"Opportunities\": [ ... ],\n  \"Threats\": [ ... ]\n}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Act like a decision coach. I will describe a personal or business decision I’m trying to make. Help me break it down using a pros and cons list with weighted scores. Present the results in structured JSON format, including a final score for each option. Ask clarifying questions if needed.\n\nDecision: I’m choosing between hiring a part-time assistant or using AI tools to automate repetitive tasks. My main concerns are cost, speed, and how much time it saves me each week."
+      },
+      {
+        "role": "assistant",
+        "content": "This breakdown uses a weighted pros and cons analysis to evaluate two options based on impact factors.\n\n{\n  \"Options\": { ... }\n}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Act like a productivity coach. I will describe a list of tasks or responsibilities. Help me organize them using the Eisenhower Matrix. Classify each item as Urgent & Important, Important but Not Urgent, Urgent but Not Important, or Neither Urgent Nor Important. Present the output in structured JSON. Be concise and ask follow-up questions if anything is unclear.\n\nTasks: Finish workshop slides, reply to late client emails, design landing page for lead magnet, book dentist appointment, browse ideas for future videos, and reorganize Notion dashboards."
+      },
+      {
+        "role": "assistant",
+        "content": "This prioritization uses the Eisenhower Matrix to sort tasks by urgency and importance.\n\n{\n  \"Urgent & Important\": [ ... ],\n  \"Important but Not Urgent\": [ ... ],\n  \"Urgent but Not Important\": [ ... ],\n  \"Neither Urgent Nor Important\": [ ... ]\n}"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Act like a strategic planning coach. I will describe a goal I'm working on. Break it down using the SMART goals framework. Present your output in structured JSON with keys: Specific, Measurable, Achievable, Relevant, and Time-bound. If any component is missing or vague, suggest how to improve it.\n\nGoal: I want to grow my AI newsletter this summer."
+      },
+      {
+        "role": "assistant",
+        "content": "This analysis uses the SMART framework to clarify and strengthen your goal by evaluating its specificity, measurability, achievability, relevance, and time-boundedness.\n\n{\n  \"Specific\": { ... },\n  \"Measurable\": { ... },\n  \"Achievable\": { ... },\n  \"Relevant\": { ... },\n  \"Time-bound\": { ... }\n}"
+      }
+    ]
+  }
+]
